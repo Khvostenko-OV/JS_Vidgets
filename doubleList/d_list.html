@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double List</title>
+    <link rel="stylesheet" href="./d_list.css">
+    <script defer="defer" src="./d_list.js"></script>
+</head>
+<body>
+  <h1>Select items</h1>
+  <div class="dl_container">
+    <div class="dl_list_header">List one</div>
+    <div class="dl_control"></div>
+    <div class="dl_list_header">List two</div>
+  </div>
+  <div class="dl_container">
+    <div class="dl_list">
+      <select class="dl_select" name="list_1" id="dl_list_1" multiple>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+      </select>
+    </div>
+    <div class="dl_control">
+      <div class="dl_control_btn" id="dl_all_to_2">>></div>
+      <div class="dl_control_btn" id="dl_to_2">-></div>
+      <div class="dl_control_btn" id="dl_to_1"><-</div>
+      <div class="dl_control_btn" id="dl_all_to_1"><<</div>
+    </div>
+    <div class="dl_list">
+      <select class="dl_select" name="list_2" id="dl_list_2" multiple>
+        <option value="10">A</option>
+        <option value="11">B</option>
+        <option value="12">C</option>
+        <option value="13">D</option>
+        <option value="14">E</option>
+        <option value="15">F</option>
+        <option value="16">J</option>
+      </select>
+    </div>
+  </div>
+  
+</body>
+</html>
